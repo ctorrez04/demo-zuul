@@ -1,0 +1,19 @@
+#server:
+#  port: 8020
+
+#zuul:
+# routes:
+#    demo-service:
+#      path: /demo/**
+#     serviceId: demo-service
+#      stripPrefix: true
+#    external-service:
+#      path: /external/**
+#      serviceId: external-service
+#      stripPrefix: true
+
+#eureka:
+#  client:
+#    serviceUrl:
+#      defaultZone: ${eureka.hostname:eureka.instance.hostName:http://localhost:8761/eureka}
+      #defaultZone: http://localhost:8761/eureka
